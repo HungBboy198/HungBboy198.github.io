@@ -485,6 +485,7 @@ main img{
 
 
 
+
 /*****************************************************/
 .contact h2{
 	margin-bottom: 1em;
@@ -510,6 +511,9 @@ main img{
 	width: 60px;
 	text-align: center;
 	color: #7bed9f;
+}
+.contact-left ul li div:nth-child(2) #vi-tri{
+	font-size: 12px;
 }
 .contact-left ul li:hover .fa-mobile-alt,
 .contact-left ul li:hover .fa-envelope,
@@ -679,6 +683,9 @@ footer{
 	.contact-left ul li div:nth-child(2){
 		font-size: 12px;
 	}
+	.contact-left ul li div:nth-child(2) #vi-tri{
+		font-size: 10px;
+	}
 	.contact-left ul li div:nth-child(2) h3{
 		font-size: 16px;
 	}
@@ -692,6 +699,7 @@ footer{
 		font-size: 20px;
 		padding: 2px 5px;
 	}
+
 }
 
 @media (max-width: 768px){
@@ -763,7 +771,7 @@ footer{
 	}
 
 	.contact-left ul li div:nth-child(2) #vi-tri{
-		font-size: 12px;
+		font-size: 9px;
 	}
 }
 @media (max-width: 550px){
